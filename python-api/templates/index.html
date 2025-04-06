@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram Poster</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      padding: 10px 25px;
+      font-size: 18px;
+      background-color: #e1306c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    /* Horizontal loading bar */
+    #loader {
+      display: none;
+      width: 100px;
+      height: 10px;
+      background: #eee;
+      border-radius: 5px;
+      margin: 20px auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #loader::before {
+      content: "";
+      position: absolute;
+      width: 30%;
+      height: 100%;
+      background: #e1306c;
+      animation: loading 1s infinite;
+    }
+
+    @keyframes loading {
+      0% {
+        left: -30%;
+      }
+      50% {
+        left: 50%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+
+    #response {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📸 Insta Auto Poster</h1>
+  <button id="postBtn" onclick="postImage()">Post Image</button>
+  <div id="loader"></div>
+  <p id="response"></p>
+
+  <script>
+    function postImage() {
+      const btn = document.getElementById("postBtn");
+      const loader = document.getElementById("loader");
+      const response = document.getElementById("response");
+
+      btn.disabled = true;
+      loader.style.display = "block";
+      response.innerText = "";
+
+      fetch('/post-image', { method: 'POST' })
+        .then(res => res.json())
+        .then(data => {
+          response.innerText = data.message;
+        })
+        .catch(err => {
+          response.innerText = "Error posting image.";
+          console.error(err);
+        })
+        .finally(() => {
+          btn.disabled = false;
+          loader.style.display = "none";
+        });
+    }
+  </script>
+</body>
+</html>
