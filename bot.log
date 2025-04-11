@@ -1561,3 +1561,24 @@
 2025-04-12 02:50:02,756 [INFO] 127.0.0.1 - - [12/Apr/2025 02:50:02] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
 2025-04-12 02:53:24,368 [INFO]  * Detected change in 'C:\\D-DRIVE\\working\\insta messager all-in-one prototype\\python-api\\main.py', reloading
 2025-04-12 02:53:25,003 [INFO]  * Restarting with stat
+2025-04-12 02:53:27,788 [INFO] \u2705 Logged in using saved session.
+2025-04-12 02:53:27,807 [WARNING]  * Debugger is active!
+2025-04-12 02:53:27,813 [INFO]  * Debugger PIN: 775-020-731
+2025-04-12 02:53:53,372 [INFO] 127.0.0.1 - - [12/Apr/2025 02:53:53] "GET /dashboard HTTP/1.1" 200 -
+2025-04-12 02:53:53,459 [INFO] 127.0.0.1 - - [12/Apr/2025 02:53:53] "[36mGET /static/next.jpg HTTP/1.1[0m" 304 -
+2025-04-12 02:53:53,629 [INFO] 127.0.0.1 - - [12/Apr/2025 02:53:53] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
+2025-04-12 02:54:03,891 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:03] "GET /dashboard HTTP/1.1" 200 -
+2025-04-12 02:54:03,914 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:03] "[36mGET /static/next.jpg HTTP/1.1[0m" 304 -
+2025-04-12 02:54:04,151 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:04] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
+2025-04-12 02:54:04,903 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:04] "GET /dashboard HTTP/1.1" 200 -
+2025-04-12 02:54:04,926 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:04] "[36mGET /static/next.jpg HTTP/1.1[0m" 304 -
+2025-04-12 02:54:05,169 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:05] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
+2025-04-12 02:54:15,859 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:15] "GET /dashboard HTTP/1.1" 200 -
+2025-04-12 02:54:15,880 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:15] "[36mGET /static/next.jpg HTTP/1.1[0m" 304 -
+2025-04-12 02:54:16,124 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:16] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
+2025-04-12 02:54:26,857 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:26] "GET /dashboard HTTP/1.1" 200 -
+2025-04-12 02:54:26,881 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:26] "[36mGET /static/next.jpg HTTP/1.1[0m" 304 -
+2025-04-12 02:54:27,103 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:27] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
+2025-04-12 02:54:27,588 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:27] "GET /dashboard HTTP/1.1" 200 -
+2025-04-12 02:54:27,610 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:27] "[36mGET /static/next.jpg HTTP/1.1[0m" 304 -
+2025-04-12 02:54:27,841 [INFO] 127.0.0.1 - - [12/Apr/2025 02:54:27] "[36mGET /static/bekola_ai_avatar.png HTTP/1.1[0m" 304 -
